@@ -37,3 +37,28 @@ const myFunction = function(){
 }
 
 console.log(typeof(myFunction))
+
+//****************************************************************************************
+
+// Stack(primitive): It will generate the copy of value not change in original data
+// Heap(non primitive): It will change in original value of data
+
+let myYoutubechannel = "hiteshChoudhary.com"
+
+let anotherName = myYoutubechannel;
+anotherName = "chaiaurcode"
+
+console.log(myYoutubechannel); // hiteshChoudhary.com
+console.log(anotherName) // chaiaurcode
+
+let userOne= {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email= "agharsh53@gmail.com"
+
+console.log(userOne.email); // agharsh53@gmail.com
+console.log(userTwo.email); // agharsh53@gmail.com
