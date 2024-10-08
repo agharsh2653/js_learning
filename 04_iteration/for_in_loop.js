@@ -12,7 +12,7 @@ for(const key in myObject){
 
 let programming = ["js", "rb", "cpp","swift"]
 for(const key in programming){
-    //console.log(`${key} ${programming[key]}`)
+    console.log(`${key} ${programming[key]}`)
 }
 
 //Map
@@ -24,6 +24,7 @@ map.set('IN', 'India')
 
 //console.log(map)
 
-for (const [key, value] in map) {
-    console.log(key+':-'+value)
-}
+// for (const [key, value] in map) {
+//     console.log(key+':-'+value)
+// }
+// in the map for in loop is not working
