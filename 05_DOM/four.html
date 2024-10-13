@@ -26,5 +26,18 @@
         document.querySelector('.language').appendChild(li);
     }
     addOptiLanguage("golang")
+
+    //Edit
+    const secondLanguage = document.querySelector("li:nth-child(2)")
+    //secondLanguage.innerHTML = "major"
+    const newli = document.createElement("li")
+    newli.textContent = "Mojo"
+    secondLanguage.replaceWith(newli)
+
+    //edit
+    const  firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = "<li>TypeScript</li>"
+
+    
 </script>
 </html>
